@@ -4,4 +4,5 @@
   <Project Path="3-PersonligHälsning/3-PersonligHälsning.csproj" Id="6f240a3a-add4-4539-afe9-c862d259732d" />
   <Project Path="4-Temperaturtips/4-Temperaturtips.csproj" Id="75e5fe0a-baec-43e5-847c-6c912e45979a" />
   <Project Path="5-Tärningskastet/5-Tärningskastet.csproj" Id="c1b94e1e-8dab-41f3-a12c-346c168c05e4" />
+  <Project Path="6-Kvittobyggaren/6-Kvittobyggaren.csproj" Id="784088e4-d0d3-4423-9640-0e71239ca071" />
 </Solution>
