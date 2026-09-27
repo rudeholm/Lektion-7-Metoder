@@ -1,3 +1,4 @@
 <Solution>
   <Project Path="1-Hälsningsroboten/1-Hälsningsroboten.csproj" />
+  <Project Path="2-SkrivLinje/2-SkrivLinje.csproj" Id="182d2f81-958f-4ad2-817f-ab141716ec4e" />
 </Solution>
