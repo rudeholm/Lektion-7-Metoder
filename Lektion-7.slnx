@@ -7,4 +7,5 @@
   <Project Path="6-Kvittobyggaren/6-Kvittobyggaren.csproj" Id="784088e4-d0d3-4423-9640-0e71239ca071" />
   <Project Path="7-SäkerTextinmatning/7-SäkerTextinmatning.csproj" Id="c3e4645e-48a4-4349-a83d-be03e7f6328d" />
   <Project Path="8-ValideraEpost/8-ValideraEpost.csproj" Id="a4d19df4-a9d9-49a0-9a55-d7f9b747df90" />
+  <Project Path="9-Betygskalkylatorn/9-Betygskalkylatorn.csproj" Id="d672e84f-0d9f-4f20-9cb1-b702d757b971" />
 </Solution>
