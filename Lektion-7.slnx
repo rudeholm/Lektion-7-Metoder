@@ -6,4 +6,5 @@
   <Project Path="5-Tärningskastet/5-Tärningskastet.csproj" Id="c1b94e1e-8dab-41f3-a12c-346c168c05e4" />
   <Project Path="6-Kvittobyggaren/6-Kvittobyggaren.csproj" Id="784088e4-d0d3-4423-9640-0e71239ca071" />
   <Project Path="7-SäkerTextinmatning/7-SäkerTextinmatning.csproj" Id="c3e4645e-48a4-4349-a83d-be03e7f6328d" />
+  <Project Path="8-ValideraEpost/8-ValideraEpost.csproj" Id="a4d19df4-a9d9-49a0-9a55-d7f9b747df90" />
 </Solution>

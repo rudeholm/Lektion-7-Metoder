@@ -12,7 +12,7 @@ Console.WriteLine(input);
 
 static string LäsSäkerText(string ledtext)
 {
-    string input;
+    string? input;
     bool ogiltigInput = false;
     do
     {
