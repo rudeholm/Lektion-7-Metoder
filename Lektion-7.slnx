@@ -1,6 +1,7 @@
 <Solution>
   <Project Path="1-Hälsningsroboten/1-Hälsningsroboten.csproj" />
   <Project Path="10-Standardmeddelande/10-Standardmeddelande.csproj" Id="15d7746a-b272-448b-99e8-4b15cc4a4152" />
+  <Project Path="11-SäkerSifferläsare/11-SäkerSifferläsare.csproj" Id="b05d718e-8d33-4f34-9a41-e42e8c306261" />
   <Project Path="2-SkrivLinje/2-SkrivLinje.csproj" Id="182d2f81-958f-4ad2-817f-ab141716ec4e" />
   <Project Path="3-PersonligHälsning/3-PersonligHälsning.csproj" Id="6f240a3a-add4-4539-afe9-c862d259732d" />
   <Project Path="4-Temperaturtips/4-Temperaturtips.csproj" Id="75e5fe0a-baec-43e5-847c-6c912e45979a" />

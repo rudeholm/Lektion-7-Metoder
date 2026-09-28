@@ -12,10 +12,11 @@ SkrivAvskiljare();
 
 static void SkrivAvskiljare()
 {
-    for (int i = 0; i < 30; i++)
-    {
-        Console.Write("*");
-    }
+    Console.WriteLine(new string('*', 30));
+    //for (int i = 0; i < 30; i++)
+    //{
+    //    Console.Write("*");
+    //}
 
-    Console.Write("\n");
+    //Console.Write("\n");
 }
