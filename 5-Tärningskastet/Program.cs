@@ -10,5 +10,5 @@ static int KastaTärning()
 {
     var random = new Random();
 
-    return (int)random.NextInt64(1, 7);
+    return random.Next(1, 7);
 }

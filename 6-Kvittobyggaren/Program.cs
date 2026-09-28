@@ -4,10 +4,10 @@ produkten skrivs ut och priset visas snyggt som valuta till höger. Exempel: 'Ka
 string-interpolation med utfyllnad (alignment), t.ex. `{produkt,-15}{pris,10:C}`. */
 
 
-SKrivUtKvittoLine("Flärp", 29.90M);
+SKrivUtKvittoRad("Flärp", 29.90M);
 
 
-static void SKrivUtKvittoLine(string produkt, decimal pris)
+static void SKrivUtKvittoRad(string produkt, decimal pris)
 {
     Console.WriteLine($"{produkt, -15}{pris, 10:C}");
 }
