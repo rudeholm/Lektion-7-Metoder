@@ -10,13 +10,8 @@ Console.WriteLine(FastställBetyg(85));
 
 static string FastställBetyg(int poäng)
 {
-    if (poäng >= 80)
-        return "VG";
-
-    if (poäng >= 50)
-        return "G";
-
+    if (poäng < 0 || poäng > 100) return "Ogiltig poäng";
+    if (poäng >= 80) return "VG";
+    if (poäng >= 50) return "G";
     return "IG";
-
-
 }

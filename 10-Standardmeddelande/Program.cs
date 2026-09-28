@@ -6,10 +6,10 @@ i Main. */
 
 
 LoggaMeddelande("Schemalagt underhåll nästa vecka");
-LoggaMeddelande("404 Not Found", "ERROR");
+LoggaMeddelande("404 Not Found", "error");
 
 
 static void LoggaMeddelande(string meddelande, string loggTyp = "INFO")
 {
-    Console.WriteLine($"{loggTyp} - {meddelande}");
+    Console.WriteLine($"[{loggTyp.ToUpper()}] - {meddelande}");
 }
