@@ -4,16 +4,16 @@ visa ledtexten, läsa inmatning, använda `int.TryParse` för att förhindra kra
 talet ligger inom det tillåtna intervallet (min till max). Om något slår fel ska en loop tvinga användaren
 att göra om inmatningen tills ett korrekt värde anges. */
 
-Console.WriteLine(LäsHeltal("Ange ett heltal: ", 10, 100));
+Console.WriteLine(LäsHeltal("Ange ett heltal", 10, 100));
 
 static int LäsHeltal(string ledtext, int min, int max)
 {
     string? input;
     int heltal;
 
-    do
+    while (true)
     {
-        Console.WriteLine($"{ledtext} (min: {min}, max: {max})");
+        Console.WriteLine($"{ledtext} ({min} - {max}):");
         Console.Write("> ");
         input = Console.ReadLine();
 
@@ -25,7 +25,7 @@ static int LäsHeltal(string ledtext, int min, int max)
 
         break;
 
-    } while (true);
+    }
 
     return heltal;
 }
